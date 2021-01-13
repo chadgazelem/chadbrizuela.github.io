@@ -1,0 +1,117 @@
+@media only screen and (max-width: 768px){
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto !important;
+    width: 100%; 
+}
+
+.grid-container{
+    margin: 0 auto;
+}
+
+header{
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(51, 51, 139) ;
+    
+    
+}
+
+main{
+    max-width: 767px;
+    display: grid;
+    grid-template-columns: 1fr;
+     
+}
+
+main img{
+    width: 95%;
+    height: auto;
+    padding:5px 0px 0px 0px;
+    
+}
+
+/* Style in Box 1*/
+.box1{
+    text-align: center;
+    padding: 5px 5px 0px 5px;
+    
+}
+
+.boxhead1{
+    background-color: rgb(51, 51, 139);
+    color: white;
+    text-decoration: none;
+    padding: 6px 0px 20px 0px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.boxhead1 a{
+    text-decoration: none;
+    color: white;
+}
+/*Ends here*/
+
+
+/* Style in Box 2*/
+
+.box2{
+    text-align: center;
+    padding: 5px 5px 0px 5px;
+    
+}
+
+.boxhead2{
+    background-color: rgb(51, 51, 139);
+    color: white;
+    text-decoration: none;
+    padding: 6px 0px 20px 0px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.boxhead2 a{
+    text-decoration: none;
+    color: white;
+}
+/*Ends here*/
+
+
+/* Style in Box 3*/
+
+.box3{
+    text-align: center;
+    padding: 5px 5px 0px 5px;
+    
+}
+
+.boxhead3{
+    background-color: rgb(51, 51, 139);
+    color: white;
+    text-decoration: none;
+    padding: 6px 0px 20px 0px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.boxhead3 a{
+    text-decoration: none;
+    color: white;
+}
+/*Ends here*/
+
+footer{
+    
+    color: rgb(51, 51, 139);
+    font-weight: bold ;
+    text-decoration: none;
+    padding: 6px 0px 20px 0px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;  
+}
+
+}
+
+
