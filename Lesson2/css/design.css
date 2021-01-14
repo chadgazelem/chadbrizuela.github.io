@@ -121,13 +121,13 @@ body {
     }
 }
 
-
 /*viewport of a tablet*/
 
 @media only screen and (max-width: 768px) {
-    body{
-        width:100%;
+    body {
+        width: 100%;
     }
+
     header {
         margin: 0 auto;
         text-align: center;
@@ -231,8 +231,6 @@ body {
         text-align: center;
     }
 }
-
-
 
 /* viewport for phone*/
 @media only screen and (max-width: 600px) {
@@ -342,13 +340,13 @@ body {
 
 }
 
-
 /* viewport for small phone*/
 @media only screen and (max-width: 450px) {
     body {
-       
+
         width: 100%;
     }
+
     header {
         margin: 0 auto;
         text-align: center;
