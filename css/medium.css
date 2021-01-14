@@ -1,0 +1,13 @@
+@media screen and (max-width: 780px){
+
+    body {
+        width: 80%;
+      }
+
+     
+      header img{
+
+        padding-right: 16px;
+    
+      }
+}
