@@ -1,0 +1,113 @@
+ *{
+    padding: 0;
+    margin: 0;
+}
+header {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+header img {
+    width: 200px;
+    height: auto;
+}
+
+.main-head {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-head h1 {
+    font-size: 68px;
+    margin: 0;
+    font-family: "Josefin Slab", sans-serif;
+}
+
+.motto {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    color:#f8b62d;;
+}
+
+nav{
+    font-family: "Chivo", sans-serif ;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+nav li{
+    list-style-type: none;
+    padding: 20px;
+   
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    background-color:grey;
+   
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+main, div{
+    padding: 10px;
+}
+.title-preston{
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+.hero-img{
+    background-color: rgb(221, 219, 219);
+    border: 1px solid black;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+}
+.forecast{
+    background-color: rgb(221, 219, 219);
+    border: 1px solid black;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+}
+.article{
+    background-color: rgb(221, 219, 219);
+    border: 1px solid black;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+}
+.contact{
+    background-color: rgb(221, 219, 219);
+    border: 1px solid black;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
