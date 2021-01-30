@@ -29,9 +29,10 @@
     </header>
     <nav>
         <div class="nav-wrapper">
-            <ul>
+            <ul class="menu">
+                <li><a href="#" onclick="toggleMenu()">&#9776 Menu</a></li>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Preston</a></li>
+                <li><a href="#" class="active">Preston</a></li>
                 <li><a href="#">Soda Spring</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="#">Storm Center</a></li>
@@ -56,7 +57,15 @@
             <p>Contact Information</p>
         </div>
     </main>
-    
+    <footer>
+        &copy; <span id="current-year"></span> | Chad Brizuela | Philippines |
+        <a class="site" href="https://www.byui.edu/">BYUI Online Learning</a>
+
+       <p>Last Updated: <span id="currentdate"></span></p>
+    </footer>
+    <script src="js/currentYear.js"></script>
+    <script src="js/currentDate.js"></script>
+    <script src="js/togglebar.js"></script>
 </body>
 
 </html>

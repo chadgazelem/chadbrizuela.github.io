@@ -1,17 +1,13 @@
- *{
-    padding: 0;
-    margin: 0;
-}
 header {
-    padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-  
+    background-image: linear-gradient(to bottom right, #FBE8C9, #F6CA97, #FBCF67, #FBB825, #ED8728);
+    width: 100%;
 }
 
 header img {
-    width: 200px;
+    width: 165px;
     height: auto;
 }
 
@@ -21,85 +17,69 @@ header img {
 }
 
 .main-head h1 {
-    font-size: 68px;
+    font-size: 46px;
     margin: 0;
     font-family: "Josefin Slab", sans-serif;
 }
 
 .motto {
-    font-size: 15px;
+    font-size: 16px;
     font-family: "Montserrat", sans-serif;
-    color:#f8b62d;;
+    color: white;
+    padding: 0;
 }
 
-nav{
-    font-family: "Chivo", sans-serif ;
-}
-nav ul{
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-}
-nav li{
-    list-style-type: none;
-    padding: 20px;
-   
-}
-nav a{
-    text-decoration: none;
-    color: black;
-}
-
-nav a:hover{
-    background-color:grey;
-   
-}
-
-main{
-    width: 90%;
+.nav-wrapper {
+    width: 100%;
     margin: 0 auto;
+    font-family: "Chivo", sans-serif;
 }
-main, div{
-    padding: 10px;
+
+nav {
+    background-color: #333;
 }
-.title-preston{
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 22px;
+}
+
+nav a:hover {
+    background-color: #555;
+
+}
+.menu li {
+    display: none;
+}
+
+.menu li:first-child {
+    display: block;
+}
+
+.responsive li {
+    display: block;
+}
+.active{
+    background-color: #555; 
+}
+
+.title-preston {
     text-align: center;
     font-family: "Chivo", sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     margin: 10px;
     margin-bottom: 10px;
 }
-.hero-img{
-    background-color: rgb(221, 219, 219);
-    border: 1px solid black;
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    font-size: 17px;
-    font-family: "Montserrat", sans-serif;
-}
-.forecast{
-    background-color: rgb(221, 219, 219);
-    border: 1px solid black;
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    font-size: 17px;
-    font-family: "Montserrat", sans-serif;
-}
-.article{
-    background-color: rgb(221, 219, 219);
-    border: 1px solid black;
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    font-size: 17px;
-    font-family: "Montserrat", sans-serif;
-}
-.contact{
+
+.hero-img {
     background-color: rgb(221, 219, 219);
     border: 1px solid black;
     text-align: center;
@@ -110,4 +90,67 @@ main, div{
     font-family: "Montserrat", sans-serif;
 }
 
+.forecast {
+    background-color: rgb(221, 219, 219);
+    border: 1px solid black;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+}
 
+.article {
+    background-color: rgb(221, 219, 219);
+    border: 1px solid black;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.contact {
+    background-color: rgb(221, 219, 219);
+    border: 1px solid black;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px 0px 1px 0px;
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(to bottom right, #FBE8C9, #F6CA97, #FBCF67, #FBB825, #ED8728);
+}
+
+
+/* flex style */
+@media screen and (min-width: 768px) {
+
+    nav ul {
+        display: flex;
+
+    }
+
+    nav li {
+        flex: 1 1 0;
+    }
+    
+    .menu li {
+        display: block;
+    }
+
+    .menu li:first-child {
+        display: none;
+
+    }   
+}
