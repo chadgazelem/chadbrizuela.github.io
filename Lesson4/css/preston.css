@@ -33,15 +33,16 @@ header img {
     width: 100%;
     margin: 0 auto;
     font-family: "Chivo", sans-serif;
+    
 }
 
 nav {
-    background-color: #333;
+    background-color: #333;  
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
+
 }
 
 nav a {
@@ -134,7 +135,12 @@ footer {
 
 
 /* flex style */
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
+   
+}
+
+
+@media screen and (min-width: 873px) {
 
     nav ul {
         display: flex;
@@ -154,3 +160,4 @@ footer {
 
     }   
 }
+
