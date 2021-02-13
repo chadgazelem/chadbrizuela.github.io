@@ -17,10 +17,10 @@
 </head>
 
 <body>
-    <div class="ads-content">
+    <!-- <div class="ads-content">
         <p>Saturday = Cotton Candy in the Park!</p>
         <p>9:00 p.m Friday at the city park</p>
-    </div>
+    </div> -->
     <header>
         <div class="ads-container">
           
@@ -54,15 +54,20 @@
         </div>
         <div class="hero-container">
             <div class="hero-img">
-                <img src="img/hero.jpg" alt="Beach">
+                <img src="img/landscape.jpg" sizes="50vw" alt="landscape"
+                srcset="img/landscape1.png 320w,
+                img/landscape2.png 640w,
+                img/landscape3.png 1020w,"
+                >
             </div>
             <section class="stats">
                 <p class="stats-title">Weather Summary</p>
                 <hr>
                 <p>Currently: Sunny</p>
-                <p>Temperature: 39 &#8451;</p>
+                <p>Temperature: 10 &#8451;</p>
+                <p>Windchill: <span id="windChill"></span> &#8451;</p>
                 <p>Humidity: 69%</p>
-                <p>Wind Speed: 5 mph</p>
+                <p>Wind Speed: 4.8 mph</p>
             </section>
         </div>
         <table>
@@ -140,6 +145,7 @@
     <script src="js/currentYear.js"></script>
     <script src="js/currentDate.js"></script>
     <script src="js/togglebar.js"></script>
+    <script src="js/windChill.js"></script>
 </body>
 
 </html>
