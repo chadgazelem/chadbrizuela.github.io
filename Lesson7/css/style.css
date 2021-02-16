@@ -2,7 +2,6 @@ main{
     margin: 0;
     padding: 0;
     width: 100%;
-    
 }
 
 picture img{
@@ -11,7 +10,7 @@ picture img{
 }
 
 img[data-src] {
-  filter: blur(0.6em);
+  filter: blur(1em);
 }
 
 img {
