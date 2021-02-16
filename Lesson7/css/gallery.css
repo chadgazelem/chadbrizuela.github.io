@@ -146,12 +146,12 @@ footer {
 }
 
 img[data-src] {
-    filter: blur(1em);
+    filter: blur(0.5em);
   }
   
 img {
     filter: blur(0em);
-    transition: filter 0.9s;
+    transition: filter 0.3s;
   }
 
 
