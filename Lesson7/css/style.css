@@ -2,10 +2,15 @@ main{
     margin: 0;
     padding: 0;
     width: 100%;
+    display: block;
+    align-items: center;
 }
 
 picture img{
     display: block;
+  
+}
+h1{
   text-align: center;
 }
 
@@ -16,5 +21,8 @@ img[data-src] {
 img {
   filter: blur(0em);
   transition: filter 1s;
+  display: block;
+  align-items: center;
+  margin: 0 auto;
 }
 
