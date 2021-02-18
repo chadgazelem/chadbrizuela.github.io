@@ -15,12 +15,12 @@ h1{
 }
 
 img[data-src] {
-  filter: blur(1em);
+  filter: blur(0.2em);
 }
 
 img {
   filter: blur(0em);
-  transition: filter 1s;
+  transition: filter 0.5s;
   display: block;
   align-items: center;
   margin: 0 auto;
