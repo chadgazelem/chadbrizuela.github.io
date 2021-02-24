@@ -1,0 +1,155 @@
+main {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, #FBE8C9, #F6CA97, #FBCF67, #FBB825, #ED8728);
+    width: 100%;
+}
+
+header img {
+    width: 165px;
+    height: auto;
+}
+
+.main-head {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-head p {
+    font-size: 46px;
+    margin: 0;
+    font-family: "Josefin Slab", sans-serif;
+}
+
+.motto {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    padding: 0;
+}
+
+.nav-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Chivo", sans-serif;
+
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 22px;
+    font-size: 13px;
+
+}
+
+nav a:hover {
+    background-color: #555;
+
+}
+
+.menu {
+    margin: 0;
+}
+
+.menu li {
+    display: none;
+}
+
+.menu li:first-child {
+    display: block;
+}
+
+.responsive li {
+    display: block;
+}
+
+.active {
+    background-color: #555;
+}
+
+
+
+/* Main CSS */
+.title-preston p {
+    font-family: "Chivo", sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px 0px 1px 0px;
+    margin-top: 0;
+    font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(to bottom right, #FBE8C9, #F6CA97, #FBCF67, #FBB825, #ED8728);
+}
+
+
+/* flex style */
+
+
+
+@media screen and (min-width: 760px) {
+ 
+    .hero-container{
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        overflow: hidden;
+    }
+
+    header,
+    footer {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        display: flex;
+
+    }
+
+    nav li {
+        flex: 1 1 0;
+    }
+
+    .menu li {
+        display: block;
+    }
+
+    .menu li:first-child {
+        display: none;
+    }
+
+ 
+
+
+
+}
+
+@media only screen and (min-width: 871px) {}
