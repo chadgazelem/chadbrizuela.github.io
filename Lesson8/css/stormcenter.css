@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 main {
     margin: 0 auto;
+    width: 90%;
 }
 
 header {
@@ -87,10 +91,19 @@ nav a:hover {
 
 
 /* Main CSS */
-.title-preston p {
+.title-stormcenter p {
     font-family: "Chivo", sans-serif;
     font-size: 30px;
     text-align: center;
+}
+
+.form-class{
+    display: block;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.stormcenter{
+    display: block;
 }
 
 
@@ -109,8 +122,8 @@ footer {
 
 
 @media screen and (min-width: 760px) {
- 
-    .hero-container{
+
+    .hero-container {
         position: relative;
         background-repeat: no-repeat;
         background-size: cover;
@@ -146,10 +159,12 @@ footer {
         display: none;
     }
 
- 
+
 
 
 
 }
 
-@media only screen and (min-width: 871px) {}
+@media only screen and (min-width: 920px) {
+
+}
