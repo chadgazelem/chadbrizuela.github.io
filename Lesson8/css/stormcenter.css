@@ -98,12 +98,20 @@ nav a:hover {
 }
 
 .form-class{
-    display: block;
     padding: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; 
 }
-.stormcenter{
-    display: block;
+.storm-form{
+    display: flex;
+    justify-content: center;
+    
+}
+
+input, select, textarea{
+    border-radius: 6px;
+    border-style: solid;
+    padding: 8px;
+    background-color: rgb(248, 248, 248);
 }
 
 
