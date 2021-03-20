@@ -88,7 +88,7 @@ nav a:hover {
 
 
 /* Main CSS */
-.title-preston p {
+.title-sodaspring p {
     font-family: "Chivo", sans-serif;
     font-size: 30px;
     text-align: center;
@@ -103,10 +103,11 @@ nav a:hover {
 }
 
 .hero-img img {
-    width: 100%;
+    width: 150%;
     height: auto;
     background-repeat: no-repeat;
     background-size:cover;
+
 }
 
 .stats {
@@ -241,6 +242,9 @@ footer {
         height: 450px;
         overflow: hidden;
     }
+    .hero-img img {
+        width: 100%;
+    }
 
     header,
     footer {
@@ -373,10 +377,13 @@ footer {
 @media only screen and (min-width: 871px) {
 
     .hero-container{
-        height: 500px;
+        height: 360px;
      
     }
   
+    .hero-img img {
+        width: 100%;
+    }
     .title{
         margin-top: 50px;
     }
