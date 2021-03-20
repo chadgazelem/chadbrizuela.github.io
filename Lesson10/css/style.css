@@ -409,6 +409,7 @@ footer {
         height: auto;
         top: 13px;
         left: 656px;
+        box-shadow: none;
     }
 
 }
