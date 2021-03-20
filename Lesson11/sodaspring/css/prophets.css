@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+header,
+footer {
+    text-align: center;
+    color: black;
+    font-family: 'Secular One', sans-serif;
+    padding: 10px 10px 20px 10px;
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+section {
+    background-color: #cacaca;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+h2 {
+    color: black;
+    border-radius: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+div.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+img {
+    width: 70%;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 512px) {
+    div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}

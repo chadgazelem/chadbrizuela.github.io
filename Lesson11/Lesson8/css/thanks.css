@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.greetings {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}

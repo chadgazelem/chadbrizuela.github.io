@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Work+Sans:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="webfont.js">
+    <title>Sunnys</title>
+</head>
+
+<body>
+    <header>
+        <div class="ads-container">
+
+        </div>
+        <picture>
+            <img src="img/sunnys-logo.png" alt="SunnyLogo">
+        </picture>
+        <section class="main-head">
+            <p>Sunnys</p>
+            <div class="motto">
+                <i> Know your plan with Sunnys</i>
+            </div>
+        </section>
+    </header>
+    <nav>
+        <div class="nav-wrapper">
+            <ul class="menu">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="https://chadgazelem.github.io/chadbrizuela.github.io/Lesson9/index.html">Home</a></li>
+                <li><a href="https://chadgazelem.github.io/chadbrizuela.github.io/Lesson10/preston.html">Preston</a></li>
+                <li><a href="https://chadgazelem.github.io/chadbrizuela.github.io/sodaspring/sodaspring.html" class="active">Soda Spring</a></li>
+                <li><a href="https://chadgazelem.github.io/chadbrizuela.github.io/fishhaven/fishhaven.html">Fish Haven</a></li>
+                <li><a href="https://chadgazelem.github.io/chadbrizuela.github.io/Lesson8/stromcenter.html">Storm
+                        Center</a></li>
+                <li><a href="https://chadgazelem.github.io/chadbrizuela.github.io/Lesson7/gallery-7.html">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="title-sodaspring">
+            <p> Soda Spring </p>
+        </div>
+        <div class="hero-container">
+            <div class="hero-img">
+                <img src="img/sodabanner.jpg" sizes="50vw" alt="landscape">
+            </div>
+            <div class="stats">
+                <p class="stats-title">Weather Summary</p>
+                <hr>
+                <p>Currently: <span id='current-weather'></p>
+                <p>Temperature: <span id='current-temp'></span> &#8457;</p>
+                <p>Windchill: <span id="windChill"></span> &#8457;</p>
+                <p>Humidity: <span id='current-hum'></span> %</p>
+                <p>Wind Speed: <span id='current-wind'></span> mph</p>
+            </div>
+        </div>
+
+        <table>
+            <tr>
+                <h2 class="title">5 days Weather Forecast</h2>
+                <th id="dayofweek1"></th>
+                <th id="dayofweek2"></th>
+                <th id="dayofweek3"></th>
+                <th id="dayofweek4"></th>
+                <th id="dayofweek5"></th>
+            </tr>
+            <tr>
+                <td><img id="img1"></td>
+                <td><img id="img2"></td>
+                <td><img id="img3"></td>
+                <td><img id="img4"></td>
+                <td><img id="img5"></td>
+            </tr>
+            <tr>
+                <td><span id="temperature1"></span>36&#8451</td>
+                <td><span id="temperature2"></span>36&#8451</td>
+                <td><span id="temperature3"></span>36&#8451</td>
+                <td><span id="temperature4"></span>36&#8451</td>
+                <td><span id="temperature5"></span>36&#8451</td>
+            </tr>
+
+        </table>
+
+        <!-- <div class="box"></div> -->
+
+        <div class="article-container">
+            <div class="article-img">
+                <img src="img/sodaspring.jpg" alt="sodaspring">
+                <h3>Soda Spring</h3>
+                <p class="by"><i>Oregon Trail Oasis for Historic Tours and Outdoor Adventure!</i></p>
+                <p>In the summer of 1937 Soda Springs was drilling a well seeking a hot water source for a swimming pool
+                    but instead found a carbonated water source that sent a geyser spraying 100 feet into the air. The
+                    citizens capped the geyser and release the flow once an hour. You can’t fool mother nature, but in
+                    Soda Springs they have her working on a time clock. If you are a fan of the Guinness Book of World
+                    Records, you’ll want to know this is the world’s only captive geyser.
+                </p>
+            </div>
+
+        </div>
+    </main>
+    <div class="contact-container">
+        <div class="contact-content">
+            <b>
+                <p>Sunny's Website</p>
+            </b>
+            <p> &#xf0e7 40 N 2nd East <br>
+                Philippines
+            </p><br>
+            <p> &#xf2a0; 09544-55842</p>
+            <p> &#9993; sunnys@gmail.com</p>
+            <div class="map">
+                <img src="img/map.PNG" alt="map">
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        &copy; <span id="current-year"></span> | Chad Brizuela | Philippines |
+        <a class="site" href="https://www.byui.edu/">BYUI Online Learning</a>
+
+        <p><span id="currentdate"></span></p>
+    </footer>
+    <script src="js/currentYear.js"></script>
+    <script src="js/currentDate.js"></script>
+    <script src="js/togglebar.js"></script>
+    <script src="js/towndata.js"></script>
+    <script src="js/stats.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+
+</html>
