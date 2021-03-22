@@ -368,7 +368,7 @@ footer {
     }
 
     .contact-content {
-        margin: 10px 10px 10px 135px;
+        margin: 10px 10px 10px 108px;
 
     } 
 
@@ -378,13 +378,13 @@ footer {
         width: 305px;
         height: 177px;
         top: 7px;
-        left: 430px;
+        left: 374px;
         box-shadow: none;
     }
 
 }
 
-@media only screen and (min-width: 1020px) {
+@media only screen and (min-width: 1120px) {
 
     .hero-container{
         height: 360px;
@@ -408,7 +408,7 @@ footer {
         grid-column: 3/4;
     }
     .contact-content {
-        margin: 10px 10px 10px 412px;
+        margin: 10px 10px 10px 500px;
         justify-content: center;
 
     } 
@@ -425,7 +425,7 @@ footer {
         width: 305px;
         height: 177px;
         top: 7px;
-        left: 656px;
+        left: 750px;
         box-shadow: none;
     }
 
