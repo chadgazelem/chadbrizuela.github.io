@@ -10,19 +10,19 @@ const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
     for (let i = 0; i < town.length; i++) {
       if (i == 6) {
         let eventlist = document.createElement('section');
-        let event1 = document.createElement('p');
-        let event2 = document.createElement('p');
-        let event3 = document.createElement('p');
-        let event4 = document.createElement('p');
+        let elist1 = document.createElement('p');
+        let elist2 = document.createElement('p');
+        let elist3 = document.createElement('p');
+        let elist4 = document.createElement('p');
 
-        event1.textContent = town[i].events[0];
-        event2.textContent = town[i].events[1];
-        event3.textContent = town[i].events[2];
-        event4.textContent = town[i].events[3];
+        elist1.textContent = town[i].events[0];
+        elist2.textContent = town[i].events[1];
+        elist3.textContent = town[i].events[2];
+        elist4.textContent = town[i].events[3];
     
-        eventlist.appendChild(event1);
-        eventlist.appendChild(event2);
-        eventlist.appendChild(event3);
+        eventlist.appendChild(elist1);
+        eventlist.appendChild(elist2);
+        eventlist.appendChild(elist3);
       
         document.querySelector('div.prestonevent').appendChild(eventlist);
         
