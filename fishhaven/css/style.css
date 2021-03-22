@@ -367,7 +367,7 @@ footer {
     }
 
     .contact-content {
-        margin: 10px 10px 10px 210px;
+        margin: 10px 10px 10px 108px;
 
     } 
 
@@ -377,18 +377,17 @@ footer {
         width: 305px;
         height: 177px;
         top: 7px;
-        left: 506px;
+        left: 374px;
         box-shadow: none;
     }
 
 
 }
 
-@media only screen and (min-width: 1020px) {
+@media only screen and (min-width: 1120px) {
 
     .hero-container{
         height: 360px;
-     
     }
   
     .hero-img img {
