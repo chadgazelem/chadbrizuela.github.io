@@ -295,26 +295,22 @@ footer {
     }
 
     .contact-content {
-        margin: 10px 10px 10px 135px;
+        margin: 10px 10px 10px 108px;
 
     } 
 
     .map img{
         display: block;
         position: absolute;
-        width: 35%;
-        height: auto;
-        top: 8px;
-        left: 371px;
+        width: 310px;
+        height: 176px;
+        top: 7px;
+        left: 374px;
         box-shadow: none;
     }
-
-
-
-
 }
 
-@media only screen and (min-width: 871px) {
+@media only screen and (min-width: 1120px) {
 
     .hero-container{
         height: 530px;
@@ -339,7 +335,7 @@ footer {
         grid-column: 3/4;
     }
     .contact-content {
-        margin: 10px 10px 10px 412px;
+        margin: 10px 10px 10px 500px;
         justify-content: center;
 
     } 
@@ -347,10 +343,10 @@ footer {
     .map img{
         display: block;
         position: absolute;
-        width: 18%;
-        height: auto;
-        top: 5px;
-        left: 656px;
+        width: 310px;
+        height: 176px;
+        top: 7px;
+        left: 750px;
     }
 
 }
