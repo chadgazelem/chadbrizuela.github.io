@@ -418,7 +418,8 @@ footer {
         margin-top: 50px;
     }
 
-    .map img{
+    .map img {
+        
         display: block;
         position: absolute;
         width: 325px;
@@ -426,8 +427,6 @@ footer {
         top: 9px;
         left: 656px;
         box-shadow: none;
-
-    
     }
 
 }

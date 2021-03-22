@@ -175,6 +175,18 @@ td img {
     width: 60px;
     box-shadow: none;
 }
+
+.sodaspringevent {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(226, 226, 226);
+    margin-top: 50px;
+   
+}
+.sodaspringevent h2{
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+}
 .article-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -363,18 +375,16 @@ footer {
     .map img{
         display: block;
         position: absolute;
-        width: 35%;
-        height: auto;
-        top: 16px;
-        left: 371px;
+        width: 305px;
+        height: 177px;
+        top: 7px;
+        left: 430px;
+        box-shadow: none;
     }
-
-
-
 
 }
 
-@media only screen and (min-width: 871px) {
+@media only screen and (min-width: 1020px) {
 
     .hero-container{
         height: 360px;
@@ -412,9 +422,9 @@ footer {
     .map img{
         display: block;
         position: absolute;
-        width: 20%;
-        height: auto;
-        top: 13px;
+        width: 305px;
+        height: 177px;
+        top: 7px;
         left: 656px;
         box-shadow: none;
     }
