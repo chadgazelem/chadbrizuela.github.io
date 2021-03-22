@@ -1,11 +1,12 @@
-body{
+body {
     margin: 0 auto;
 }
+
 main {
     margin: 0 auto;
     width: 90%;
-    
-    
+
+
 }
 
 header {
@@ -99,22 +100,23 @@ nav a:hover {
     text-align: center;
 }
 
-.gallery-images{
+.gallery-images {
     margin: 0 auto;
     display: grid;
-    
+
 }
 
-.gallery-images picture{
+.gallery-images picture {
     margin: 10px;
     text-align: center;
 }
 
-.gallery-images picture img{
+.gallery-images picture img {
     width: 80%;
 }
-figcaption{
-    font-family: "Montserrat",sans-serif;
+
+figcaption {
+    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -125,9 +127,10 @@ figcaption{
     color: white;
     width: 100%;
     margin-top: 70px;
-    font-family: "Montserrat",sans-serif ;
+    font-family: "Montserrat", sans-serif;
 }
-.contact-container img{
+
+.contact-container img {
     display: none;
 }
 
@@ -147,18 +150,18 @@ footer {
 
 img[data-src] {
     filter: blur(0.5em);
-  }
-  
+}
+
 img {
     filter: blur(0em);
     transition: filter 0.3s;
-  }
+}
 
 
 /* flex style */
 
 @media screen and (min-width:760px) {
- 
+
 
     header,
     footer {
@@ -189,10 +192,10 @@ img {
 
     }
 
-    .gallery-images{
+    .gallery-images {
         margin: 0 auto;
         display: grid;
-        grid-template-columns:  1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
 
@@ -202,45 +205,48 @@ img {
     }
 
     .contact-content {
-        margin: 10px 10px 10px 135px;
+        margin: 10px 10px 10px 108px;
 
-    } 
+    }
 
-    .map img{
+    .map img {
         display: block;
         position: absolute;
-        width: 35%;
-        height: auto;
-        top: 16px;
-        left: 371px;
+        width: 315px;
+        height: 181px;
+        top: 8px;
+        left: 374px;
+        box-shadow: none;
     }
 
 }
 
- @media only screen and (min-width: 1020px) {
+@media only screen and (min-width: 1020px) {
 
-    .gallery-images{
+    .gallery-images {
         margin: 0 auto;
         display: grid;
-        grid-template-columns:  1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .contact-content {
-        margin: 10px 10px 10px 412px;
+        margin: 10px 10px 10px 500px;
         justify-content: center;
 
-    } 
+    }
 
-    .map img{
+    .map img {
         display: block;
         position: absolute;
-        width: 20%;
-        height: auto;
-        top: 13px;
-        left: 656px;
+        width: 315px;
+        height: 181px;
+        top: 8px;
+        left: 750px;
+        box-shadow: none;
     }
+
     .gallery-images picture img:hover {
         box-shadow: 0 0 50px #333;
     }
 
-} 
+}
