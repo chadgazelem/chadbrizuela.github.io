@@ -35,7 +35,7 @@ fetch(towndataURL)
         box.appendChild(rainfall);
         box.appendChild(image);
 
-        document.querySelector('div.box').appendChild(box);
+         document.querySelector('div.box').appendChild(box);
       }
     }
   });
