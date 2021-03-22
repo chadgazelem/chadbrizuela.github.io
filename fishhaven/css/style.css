@@ -408,7 +408,7 @@ footer {
         grid-column: 3/4;
     }
     .contact-content {
-        margin: 10px 10px 10px 310px;
+        margin: 10px 10px 10px 500px;
         justify-content: center;
 
     } 
@@ -425,7 +425,7 @@ footer {
         width: 305px;
         height: 177px;
         top: 7px;
-        left: 610px;
+        left: 750px;
         box-shadow: none;
     }
 }
