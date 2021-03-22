@@ -367,7 +367,7 @@ footer {
     }
 
     .contact-content {
-        margin: 10px 10px 10px 135px;
+        margin: 10px 10px 10px 210px;
 
     } 
 
@@ -377,9 +377,12 @@ footer {
         width: 305px;
         height: 177px;
         top: 7px;
-        left: 430px;
+        left: 506px;
         box-shadow: none;
     }
+
+
+
 
 }
 
@@ -407,7 +410,7 @@ footer {
         grid-column: 3/4;
     }
     .contact-content {
-        margin: 10px 10px 10px 412px;
+        margin: 10px 10px 10px 310px;
         justify-content: center;
 
     } 
@@ -424,7 +427,7 @@ footer {
         width: 305px;
         height: 177px;
         top: 7px;
-        left: 656px;
+        left: 610px;
         box-shadow: none;
     }
 }
