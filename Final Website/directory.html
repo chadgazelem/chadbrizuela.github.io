@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Work+Sans:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="img/city-favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/directory.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Municipality of Tabaco</title>
+</head>
+
+<body>
+    <header>
+        <div class="ads-container">
+            <picture>
+                <img src="img/city-logo.png" alt="city logo">
+            </picture>
+        </div>
+    </header>
+    <nav>
+
+        <div class="nav-wrapper">
+            <ul class="menu">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="tabacohome.html">Home</a></li>
+                <li><a href="city.html">City</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#"><img src="img/fb-icon.png" alt="fb icon"></a></li>
+                <li><a href="#"><img src="img/insta-icon.png" alt="insta icon"></a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <main>
+
+        <div class="welcome-box">
+            <div class="welcome-content">
+                <p class="first-p">Directory of</p>
+                <p class="second-p">Tabaco Chamber of Commerce</p>
+            </div>
+        </div>
+        <div class="directory-content">
+            <h1>Directory</h1>
+
+            <div class="directory-icons">
+                <a href="#" onclick="gridView()"><img src="img/grid-view.PNG" alt="Grid Icon" /></a>
+                <a href="#" onclick="listView()"><img src="img/list-view.PNG" alt="List Icon" /></a>
+            </div>
+            <div id="view" class="grid"></div>
+        </div>
+    </main>
+
+    <div class="last-box">
+        <div class="last-content">
+            <div class="title-chamber">
+                <img src="img/city-logo.png" alt="">
+                <p>Tabaco Chamber of Commerce</p>
+            </div>
+
+            <div class="contacts-content">
+                <p> <i class="material-icons">&#xe55f;</i> 40 N 2nd East
+                    Philippines
+                </p>
+                <p> <i class="material-icons">&#xe551;</i> 125-99857-88722
+                </p>
+            </div>
+            <div class="last-button">
+                <button type="button" class="last-btn">Join our Chamber!</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; <span id="current-year"></span> | Chad Brizuela | Philippines |
+        <a class="site" href="https://www.byui.edu/">BYUI Online Learning</a>
+
+        <p><span id="currentdate"></span></p>
+    </footer>
+    <script src="js/currentYear.js"></script>
+    <script src="js/currentDate.js"></script>
+    <script src="js/togglebar.js"></script>
+    <script src="js/directory.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+</body>
+
+</html>

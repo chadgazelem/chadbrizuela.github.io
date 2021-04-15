@@ -1,0 +1,364 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    margin: 0 auto;
+  padding: 0 auto;
+}
+
+header picture img {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.nav-wrapper {
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+    font-family: "Chivo", sans-serif;
+    box-shadow: #aeaeae 1px 1px 1px;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    text-align: right;
+    color: #292929;
+    display: block;
+    padding: 22px;
+    margin: 0 auto;
+    font-size: 15px;  
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav a:hover {
+    color: #555;
+
+}
+
+.menu {
+    margin: 0;
+}
+
+.menu li {
+    display: none;
+}
+
+.menu li:first-child {
+    display: block;
+}
+
+.responsive li {
+    display: block;
+}
+
+.menu li img {
+    width: 20px;
+    padding: 0;
+    margin: 0;
+
+}
+
+/* Main CSS */
+
+.welcome-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 10px;
+    align-items: center; 
+    padding: 20px;
+    
+}
+.first-p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: right;
+    color:#666666;
+}
+.second-p{
+    font-family: "Kaushan Script", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: left;
+    color:#666666;
+}
+.history-container {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    overflow: hidden;
+}
+
+.history-img img {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+.history-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    justify-items: center;
+  
+}
+.history-content{
+   font-family: "Montserrat",sans-serif;
+   width: 90%;
+   padding-top: 20px;
+}
+/* Carousel CSS */
+
+.container{
+  padding-bottom: 10px;
+}
+
+.container h2{
+  font-family: "Montserrat",sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color:#666666;
+}
+/* End of Carousel CSS */
+
+.tourist-title{
+  padding-top: 10px;
+  width: 95%;
+  margin: 0 auto;
+}
+.tourist-title p{
+  color:#666666;
+  font-size: 35px;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 700 ; 
+}
+
+/* Grid Image CSS */
+.image-container{
+  width: 90%;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1750px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* End Grid Image CSS */
+
+.last-box{
+  box-shadow:#666666 0px 0px 5px;
+  margin-top: 10px;
+  color:#666666;
+  font-family: "Montserrat",sans-serif;  
+}
+.last-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 95%;
+  padding: 10px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.title-chamber img{
+  width: 35px;
+}
+.title-chamber{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-size: 12px;
+  font-weight: 700; 
+}
+.contacts-content{
+  text-align: center;
+  font-size: 12px;
+}
+.last-button{
+  text-align: center;
+}
+.last-btn {
+  padding: 0px;
+  text-align: center;
+  background-color: rgb(3, 15, 124);
+  font-weight: 200;
+  color: white;
+}
+
+
+footer {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px 0px 1px 0px;
+    margin-top: 0;
+    font-family: "Montserrat", sans-serif;
+    /* background-image: linear-gradient(to bottom right, #FBE8C9, #F6CA97, #FBCF67, #FBB825, #ED8728); */
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    /* Main CSS */
+
+    .image-container{
+      width: 90%;
+      margin: 0 auto;
+    }
+    .title-chamber img{
+      width: 60px;
+    }
+    .title-chamber{
+      align-items: center;
+      text-align: center;
+      display: flex;
+      font-size: 15px;
+      font-weight: 700; 
+    }
+    .contacts-content{
+      text-align: center;
+    }
+    .last-button{
+      text-align: center;
+    }
+    .last-btn {
+      padding: 12px;
+      text-align: center;
+      background-color: rgb(3, 15, 124);
+      font-weight: 700;
+      color: white;
+    }
+  }
+    
+   
+
+@media only screen and (min-width: 1024px) {
+
+   
+    .nav-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+ 
+    nav ul {
+        display: flex;
+       
+    }
+    nav li {
+        
+        padding: 0 auto;
+    }
+
+    .menu li {
+        display: block;
+    }
+
+    .menu li:first-child {
+        display: none;
+
+    }
+    .history-container {
+      width: 80%;
+      margin: 0 auto;
+  }
+    #myCarousel{
+      width: 80% ;
+      margin: 0 auto;
+    }
+    .container h2{
+      width: 80%;
+      margin :0 auto;
+      margin-top: 80px;
+      margin-bottom: 50px;
+      margin-left:500px;
+    }
+    .tourist-title{
+      margin: 0 auto;
+      width: 80%;
+      margin-left: 550px;
+      margin-top: 50px;
+    }
+    .last-content{
+      padding: 10px;
+      width: 81%;
+    }
+    .image-container{
+      width: 80%;
+    }
+    .tabaco-logo img {
+      width: 100px;
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .title-chamber{
+      font-size: 20px;
+      display: flex;
+      grid-column: 1/2;
+      margin-left: 50px;
+    }
+    .title-chamber img{
+      width: 100px;
+    }
+    .contacts-content{
+      text-align: center;
+    }
+    .last-button{
+      text-align: center;
+    }
+    .last-btn {
+      padding: 12px;
+      text-align: center;
+      background-color: rgb(3, 15, 124);
+      font-weight: 700;
+      color: white;
+    }
+    
+}

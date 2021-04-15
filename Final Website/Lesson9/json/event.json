@@ -1,0 +1,23 @@
+{
+    "events": [{
+            "activityname": "Supply & Delivery of Uniform for Palarong Bicol 2020 Official-Delegates and Athletes",
+            "date": "September-October 2021",
+            "content": "The Palarong Bicol ( Bikol : Pakawat nin Bikol ) is an annual festival of various sports by the three (13) divisions of public schools ( Department of Education ) of the Bicol Region . Among the cops are seven (7) cities: Iriga , Legazpi , Ligao , Masbate , Naga , Sorsogon and Tabaco up to six (6) provinces: Albay , Camarines Norte , Camarines Sur , Catanduanes , Masbatesalt Sorsogon ",
+            "imageurl": "img/pb.png"
+        },
+
+        {
+            "activityname": "Groundbreaking of Brgy. Pinagbobong Multipurpose Building",
+            "date": "24 January 2021",
+            "content": "Pinagbobong is a barangay in the city of Tabaco, in the province of Albay. Its population as determined by the 2015 Census was2,992. This represented 2.24% of the total population of Tabaco.",
+            "imageurl": "img/pinagbobong.jpg"
+        },
+        {
+            "activityname": "Groundbreaking of Brgy. San Antonio Multipurpose Building",
+            "date": "11 March 2021",
+            "content": "San Antonio is a barangay in the city of Tabaco, in the province of Albay. Its population as determined by the 2015 Census was 5,393. This represented 4.03% of the total population of Tabaco",
+            "imageurl": "img/sanantonio.jpg"
+        }
+
+    ]
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Work+Sans:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="img/city-favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/join.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Municipality of Tabaco</title>
+</head>
+
+<body>
+    <header>
+        <div class="ads-container">
+            <picture>
+                <img src="img/city-logo.png" alt="city logo">
+            </picture>
+        </div>
+    </header>
+    <nav>
+
+        <div class="nav-wrapper">
+            <ul class="menu">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="tabacohome.html">Home</a></li>
+                <li><a href="city.html">City</a></li>
+                <li><a href="join.html"class="active">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#"><img src="img/fb-icon.png" alt="fb icon"></a></li>
+                <li><a href="#"><img src="img/insta-icon.png" alt="insta icon"></a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <main>
+
+        <div class="welcome-box">
+            <div class="welcome-content">
+                <p class="first-p">Join our</p>
+                <p class="second-p">Chamber of Commerce</p>
+            </div>
+        </div>
+
+        <div class="join-form">
+            <div class="img-join">
+                <img src="img/join-img.PNG" alt="Join Image">
+            </div>
+            <form name="form" action="thanks.html" method="get">
+                <h2 class="member-title">Membership Form</h2>
+                <fieldset>
+
+                    <div class="form-box">
+                        <label for="fname"></label>
+                        <input type="text" name="fname" id="fname" required="required" pattern="[A-Za-z]{5+}"
+                            autocomplete="name" placeholder="First Name*">
+                    </div>
+
+                    <div class="form-box">
+                        <label for="lname"></label>
+                        <input type="text" name="lname" id="lname" required="required" pattern="[A-Za-z]{5+}"
+                            autocomplete="name" placeholder="Last Name*">
+                    </div>
+
+                    <div class="form-box">
+                        <label for="tname"></label>
+                        <input type="text" name="tname" id="tname" required="required" pattern="[A-Za-z]{5+}"
+                            autocomplete="name" placeholder="Title">
+                    </div>
+
+                    <div class="form-box">
+                        <label for="email"></label>
+                        <input type="email" id="email" required="required" name="email" placeholder="email@example.com">
+                    </div>
+
+                    <div class="form-box">
+                        <label for="phone"></label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            placeholder="Phone*">
+                    </div>
+                </fieldset>
+                <br><br>
+                <fieldset>
+
+                    <div class="form-box">
+                        <label for="name"></label>
+                        <input type="text" name="name" id="name" required="required" pattern="[A-Za-z]{5+}"
+                            autocomplete="name" placeholder="Business Name*">
+                    </div>
+
+                    <div class="form-box">
+                        <label for="address"></label>
+                        <input type="text" name="address" id="address" placeholder="Street Address">
+                    </div>
+
+                    <div class="form-box">
+                        <label for="city"></label>
+                        <input type="text" id="city" name="city" placeholder="City">
+                    </div>
+
+                    <div class="form-box">
+                        <label for="website"></label>
+                        <input type="text" name="website" id="website" placeholder="Business Website"
+                            pattern="http\://[a-zA-Z0-9-\.]+\.[a-zA-Z]{2,3}(/\S*)?$">
+                    </div>
+
+                    <div class="form-box">
+                        <label for="info"></label>
+                        <textarea id="info" name="info" rows="3" cols="20"
+                            placeholder="Business Description:"></textarea>
+                    </div>
+
+                    <div class="form-box">
+                        <label for="levelType">Membership Level Selection:</label>
+                        <input list="type" id="levelType" name="levelType">
+                        <datalist id="type">
+                            <option value="Non-profit($100)"></option>
+                            <option value="Bronze($200)"></option>
+                            <option value="Silver($400)"></option>
+                            <option value="Gold($1000)"></option>
+                        </datalist>
+                    </div>
+                </fieldset>
+                <br>
+                <input class="submitBtn" type="submit" value="Join Chamber">
+            </form>
+
+            <div class="promos-content">
+                <div class="promo">
+                    <p>Non-profit($100) - Access to exclusive networking directory.</p>
+                </div>
+                <div class="promo">
+                    <p>Bronze($200) - Access to the directory and eligible to attend renown business and leadership
+                        training.</p>
+                </div>
+                <div class="promo">
+                    <p>Silver($400) - Access to directory, business and leadership training, and ten tickets for the
+                        quarterly chamber luncheon with keynote speakers.</p>
+                </div>
+                <div class="promo">
+                    <p>Gold($1000) - Access to all of the above, plus sponsorship advertizing on the chamber website, at
+                        the trainings and luncheons, and on our social media page.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="last-box">
+        <div class="last-content">
+            <div class="title-chamber">
+                <img src="img/city-logo.png" alt="">
+                <p>Tabaco Chamber of Commerce</p>
+            </div>
+
+            <div class="contacts-content">
+                <p> <i class="material-icons">&#xe55f;</i> 40 N 2nd East
+                    Philippines
+                </p>
+                <p> <i class="material-icons">&#xe551;</i> 125-99857-88722
+                </p>
+            </div>
+            <div class="last-button">
+                <button type="button" class="last-btn">Join our Chamber!</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; <span id="current-year"></span> | Chad Brizuela | Philippines |
+        <a class="site" href="https://www.byui.edu/">BYUI Online Learning</a>
+
+        <p><span id="currentdate"></span></p>
+    </footer>
+    <script src="js/currentYear.js"></script>
+    <script src="js/currentDate.js"></script>
+    <script src="js/togglebar.js"></script>
+    <script src="js/windChill.js"></script>
+    <script src="js/event.js"></script>
+    <script src="js/stats.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+</body>
+
+</html>

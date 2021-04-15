@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Work+Sans:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="img/city-favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Municipality of Tabaco</title>
+</head>
+
+<body>
+    <header>
+        <div class="ads-container">
+            <picture>
+                <img src="img/city-logo.png" alt="city logo">
+            </picture>
+        </div>
+    </header>
+    <nav>
+
+        <div class="nav-wrapper">
+            <ul class="menu">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="tabacohome.html">Home</a></li>
+                <li><a href="city.html">City</a></li>
+                <li><a href="join.html" >Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html"class="active">Contact Us</a></li>
+                <li><a href="#"><img src="img/fb-icon.png" alt="fb icon"></a></li>
+                <li><a href="#"><img src="img/insta-icon.png" alt="insta icon"></a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <main>
+
+        <div class="welcome-box">
+            <div class="welcome-content">
+                <p class="second-p">Contact Us!</p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <div class="img-join">
+                <img src="img/contact.PNG" alt="Contact img">
+            </div>
+            <form name="form" action="thanks.html" method="get">
+                <h2 class="member-title">We'd love to hear from you!</h2>
+                <fieldset>
+
+                    <div class="form-box">
+                        <label for="fullame"></label>
+                        <input type="text" name="fullname" id="fullname" required="required" pattern="[A-Za-z]{5+}"
+                            autocomplete="name" placeholder="Name*">
+                    </div>
+                    <div class="form-box">
+                        <label for="email"></label>
+                        <input type="email" id="email" required="required" name="email" placeholder="email@example.com">
+                    </div>
+
+                    <div class="form-box">
+                        <label for="phone"></label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            placeholder="Phone*">
+                    </div>
+                </fieldset>
+                <br><br>
+                <fieldset>
+                    <div class="form-box">
+                        <label for="info"></label>
+                        <textarea id="info" name="info" rows="5" cols="35" placeholder="Comment:"></textarea>
+                    </div>
+                </fieldset>
+                <br>
+                <input class="submitBtn" type="submit" value="Submit">
+            </form>
+
+            <div class="directors-content">
+                <h2>Board of Directors</h2>
+                <br>
+                <br>
+                <div class="member">
+                    <p>AMB. Benedicto V. Yujuico &nbsp;<br>President</p>
+                </div>
+                <div class="member">
+                    <p>Ms. Ma. Alegria S. Limjco &nbsp;<br>Char and Director for MSP</p>
+                </div>
+                <div class="member">
+                    <p>Mr. Alfredo M. Yao&nbsp;<br> Drector for Trade and Industry</p>
+                </div>
+                <div class="member">
+                    <p>Mr. Jeffrey T. Ng&nbsp;<br>Director for Smart Cities</p>
+                </div>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.893210611367!2d123.71954611479697!3d13.356915790603885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a1adcf0fffffff%3A0xd1b3afb6eb0cb4a2!2sTabaco%20Chamber%20of%20Commerce%20and%20Industry!5e0!3m2!1sen!2sph!4v1618474727212!5m2!1sen!2sph"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <div class="last-box">
+        <div class="last-content">
+            <div class="title-chamber">
+                <img src="img/city-logo.png" alt="">
+                <p>Tabaco Chamber of Commerce</p>
+            </div>
+
+            <div class="contacts-content">
+                <p> <i class="material-icons">&#xe55f;</i> 40 N 2nd East
+                    Philippines
+                </p>
+                <p> <i class="material-icons">&#xe551;</i> 125-99857-88722
+                </p>
+            </div>
+            <div class="last-button">
+                <button type="button" class="last-btn">Join our Chamber!</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; <span id="current-year"></span> | Chad Brizuela | Philippines |
+        <a class="site" href="https://www.byui.edu/">BYUI Online Learning</a>
+
+        <p><span id="currentdate"></span></p>
+    </footer>
+    <script src="js/currentYear.js"></script>
+    <script src="js/currentDate.js"></script>
+    <script src="js/togglebar.js"></script>
+</body>
+
+</html>

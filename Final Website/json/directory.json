@@ -1,0 +1,62 @@
+{
+    "company": [{
+            "companyname": "Sutherland",
+            "companyimg": "img/sutherland-logo.png",
+            "companynumber": "(02) 459 2900",
+            "companyadd": "Legazpi City Port, 2nd Floor BPO Bldg. Embarcadero de Legazpi, Legazpi City, 4500 Albay",
+            "companywebsite":"https://www.sutherlandglobal.com/"
+        },
+
+        {
+            "companyname": "Quantrics Enterprises Inc.",
+            "companyimg": "img/quan.png",
+            "companynumber": "+6398-593-4308",
+            "companyadd": "Almeda Highway, Roxas Avenue, Brgy. Triangulo, Naga, 4400 Camarines Sur",
+            "companywebsite":"https://www.quantrics.com"
+        },
+        
+        {
+            "companyname": "Innodata",
+            "companyimg": "img/innodata-logo.png",
+            "companynumber": "201-371-8000",
+            "companyadd": "Alternate Rd, Legazpi City, Albay",
+            "companywebsite":"https://innodata.com/"
+        },
+        {
+            "companyname": "J&T Express",
+            "companyimg": "img/jt-logo.PNG",
+            "companynumber": "(02) 8911 1888",
+            "companyadd": " P2 Divino ,Tabaco City",
+            "companywebsite":"https://www.jtexpress.ph/"
+        }, 
+         {
+            "companyname": "AVON",
+            "companyimg": "img/avon.PNG",
+            "companynumber": "(02) 5887 2448",
+            "companyadd": " Ground Floor VSP Building, Riosa St, Tabaco City, Albay",
+            "companywebsite":"https://www.avon.ph/"
+        },
+        {
+            "companyname": "Serenitea",
+            "companyimg": "img/serenitea.PNG",
+            "companynumber": "+6395-458-3642",
+            "companyadd": " Corner Rizal Street, Legazpi Port District, Legazpi City, 4500 Albay",
+            "companywebsite":"https://iloveserenitea.com/"
+        },
+        {
+            "companyname": "FarmStation",
+            "companyimg": "img/farm.png",
+            "companynumber": "(054) 477 7209",
+            "companyadd": " San Vicente Pili Camarines Sur, Pan-Philippine Hwy, Pili, Camarines Sur",
+            "companywebsite":"N/A"
+        },
+        {
+            "companyname": "CITI Hardware",
+            "companyimg": "img/citi.png",
+            "companynumber": "(052) 742 0508",
+            "companyadd": "Brgy, 15 Rizal St, Legaspi, Albay",
+            "companywebsite":"https://www.citihardware.com"
+            
+        }    
+    ]
+}
